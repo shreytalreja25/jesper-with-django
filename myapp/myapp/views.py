@@ -13,7 +13,7 @@ def my_view(request):
                           ';Database=' + settings.DATABASES['default']['NAME'] +
                           ';UID=' + settings.DATABASES['default']['USER'] +
                           ';PWD=' + settings.DATABASES['default']['PASSWORD'] +
-                          ';Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;')
+                          ';Encrypt=yes;TrustServerCertificate=yes;Connection Timeout=30;')
     cursor = conn.cursor()
 
     cursor.execute('SELECT * FROM my_table')
