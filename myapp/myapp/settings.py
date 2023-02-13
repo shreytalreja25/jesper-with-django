@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'myapp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'database_name',
-        'USER': 'database_user',
-        'PASSWORD': 'database_password',
-        'HOST': 'database_server_name',
+        'NAME': 'JasperDjango',
+        'USER': 'shreytalreja25',
+        'PASSWORD': 'Shrey@9999',
+        'HOST': 'LAPTOP-5PMRBLQK\SQLEXPRESS',
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
